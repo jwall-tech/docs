@@ -50,11 +50,15 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Server",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        {
+            "group": "Runners",
+            "pages": ["CrossNetworkRunner", "InputRunner","InventoryRunner", "ItemRunner", "AdminRunner", "NodeRunner", "WeaponRunner"]
+
+        },
+        "Helpers", {},
+        "Classes", {}
       ]
     },
     {
